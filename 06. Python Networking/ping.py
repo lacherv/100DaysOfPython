@@ -27,6 +27,6 @@ def get_time_from_ping(url):
     return response[time_begin:time_end].splitlines()[0]
 
 
-print(get_ttl_from_ping)
-print(get_time_from_ping)
+print(get_ttl_from_ping('google.com'))
+print(get_time_from_ping('google.com'))
 
